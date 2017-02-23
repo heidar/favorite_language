@@ -1,3 +1,5 @@
+require 'test_helper'
+
 class GithubServiceTest < ActiveSupport::TestCase
   def setup
     @service = GithubService.new user: 'heidar'

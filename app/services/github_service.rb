@@ -1,19 +1,18 @@
 class GithubService
-  class << self
-    @@client = Octokit::Client.new
-  end
-
   def initialize(user:)
-    @user = user
+    @client = Octokit::Client.new
+    @user   = user
   end
 
   def favorite_language
-
+    repositories.reduce(Hash.new(0)) do |result, repository|
+      result.update(repository.language => result[repository.language] + 1)
+    end.max_by { |_, value| value }.first
   end
 
   private
 
   def repositories
-    @@client.user(@user).rels[:repos].get.data
+    @client.user(@user).rels[:repos].get.data
   end
 end
