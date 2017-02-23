@@ -5,9 +5,11 @@ class GithubService
   end
 
   def favorite_language
-    repositories.reduce(Hash.new(0)) do |result, repository|
-      result.update(repository.language => result[repository.language] + 1)
-    end.max_by { |_, value| value }.first
+    results = repositories.reduce(Hash.new(0)) do |result, repository|
+      result.update repository.language => result[repository.language] + 1
+    end
+
+    results.max_by { |_, value| value }.first
   end
 
   private
