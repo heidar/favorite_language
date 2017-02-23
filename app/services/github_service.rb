@@ -1,7 +1,7 @@
 class GithubService
-  def initialize(user:)
-    @client = Octokit::Client.new
-    @user   = user
+  def initialize(username:)
+    @client     = Octokit::Client.new
+    @username   = username
   end
 
   def favorite_language
@@ -15,6 +15,6 @@ class GithubService
   private
 
   def repositories
-    @client.user(@user).rels[:repos].get.data
+    @client.user(@username).rels[:repos].get.data
   end
 end

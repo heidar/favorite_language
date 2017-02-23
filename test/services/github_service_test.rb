@@ -2,7 +2,7 @@ require 'test_helper'
 
 class GithubServiceTest < ActiveSupport::TestCase
   def setup
-    @service = GithubService.new user: 'heidar'
+    @service = GithubService.new username: 'heidar'
   end
 
   test '#favorite_language' do
