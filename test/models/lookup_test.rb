@@ -7,11 +7,11 @@ class LookupTest < ActiveSupport::TestCase
 
   test '#favorite_language' do
     lookup = Lookup.new username: 'heidar'
-    assert_equal 'Ruby', lookup.favorite_language
+    assert_equal 'Ruby', lookup.result
   end
 
   test '#favorite_language error handling' do
     lookup = Lookup.new username: 'johnc'
-    assert_equal 'User has no repositories listed', lookup.favorite_language
+    assert_equal 'User has no repositories listed', lookup.result
   end
 end

@@ -3,7 +3,7 @@
     <%= render 'form' %>
 
     <% if @lookup.persisted? %>
-      <p class="lookup__result text-center"><%= @lookup.favorite_language %></p>
+      <p class="lookup__result text-center"><%= @lookup.result %></p>
     <% end %>
   </div>
 </div>
