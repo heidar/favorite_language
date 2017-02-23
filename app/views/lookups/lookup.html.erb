@@ -2,6 +2,8 @@
   <div class="col-sm-4 col-sm-offset-4">
     <%= render 'form' %>
 
-    <%# <%= @lookup.favorite_language %1> %>
+    <% if @lookup.persisted? %>
+      <p class="lookup__result text-center">Favourite language for <%= @lookup.username%> is <%= @lookup.favorite_language %>.</p>
+    <% end %>
   </div>
 </div>
