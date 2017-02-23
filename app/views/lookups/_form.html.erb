@@ -1,0 +1,12 @@
+<%= form_for @lookup, url: root_path, method: :get do |form| %>
+
+  <%= render 'shared/validation_errors', record: @lookup %>
+
+  <div class="input-group">
+    <%= form.text_field :username, class: 'form-control input-lg', placeholder: 'Enter a GitHub Username', required: true %>
+    <span class = "input-group-btn">
+      <%= form.submit 'Lookup', class: 'btn btn-lg btn-primary' %>
+    </span>
+  </div>
+
+<% end %>

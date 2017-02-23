@@ -35,6 +35,15 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Ruby toolkit for the GitHub API
+gem 'octokit'
+
+# Twitter Bootstrap
+gem 'bootstrap-sass'
+
+# Make objects quack like ActiveRecord objects.
+gem 'active_type'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
@@ -58,6 +67,11 @@ end
 group :test do
   # Acceptance testing
   gem 'minitest-rails-capybara'
+
+  # Record your test suite's HTTP interactions and replay them during future test runs for fast, deterministic, accurate tests.
+  gem 'vcr'
+  # Library for stubbing and setting expectations on HTTP requests in Ruby.
+  gem 'webmock'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
