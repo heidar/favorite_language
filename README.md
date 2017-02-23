@@ -1,24 +1,15 @@
-# README
+### Favorite Language
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Enter a GitHub username and this app will tell you their favourite language.
 
-Things you may want to cover:
+Live on [heroku](https://fav-lang.herokuapp.com/).
 
-* Ruby version
+### Setup
 
-* System dependencies
+Tested with Ruby 2.3.3. Requires PostgreSQL with a database called `favorite_language_development`.
 
-* Configuration
+    git clone git@github.com:heidar/favorite_language.git
+    cd favorite_language
+    bin/setup
+    rails s
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
