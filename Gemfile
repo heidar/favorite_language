@@ -38,6 +38,12 @@ gem 'jbuilder', '~> 2.5'
 # Ruby toolkit for the GitHub API
 gem 'octokit'
 
+# Twitter Bootstrap
+gem 'bootstrap-sass'
+
+# Make objects quack like ActiveRecord objects.
+gem 'active_type'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
