@@ -4,4 +4,9 @@ class LookupTest < ActiveSupport::TestCase
     refute lookup.save
     assert_includes lookup.errors[:username], "can't be blank"
   end
+
+  test '#favorite_language' do
+    lookup = Lookup.new username: 'heidar'
+    assert_equal 'Ruby', lookup.favorite_language
+  end
 end
