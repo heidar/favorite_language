@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Feb 2017 11:23:26 GMT
+      - Thu, 23 Feb 2017 11:07:22 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,9 +33,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '53'
+      - '40'
       X-Ratelimit-Reset:
-      - '1487852552'
+      - '1487850502'
       Cache-Control:
       - public, max-age=60, s-maxage=60
       Vary:
@@ -63,9 +63,9 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - cee4c0729c8e9147e7abcb45b9d69689
+      - e183f7c661b1bbc2c987b3c4dc7b04e0
       X-Github-Request-Id:
-      - EA31:76F0:CF3F576:101E4E96:58AEC62E
+      - E93A:2F904:B6C0F2C:ED5B156:58AEC269
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -96,7 +96,7 @@ http_interactions:
         MjAxMi0wMi0yNFQyMzoyMDo0MloiLCJ1cGRhdGVkX2F0IjoiMjAxNy0wMi0y
         MVQxMzo1MToyOVoifQ==
     http_version: 
-  recorded_at: Thu, 23 Feb 2017 11:23:26 GMT
+  recorded_at: Thu, 23 Feb 2017 11:07:22 GMT
 - request:
     method: get
     uri: https://api.github.com/users/heidar/repos
@@ -120,7 +120,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Feb 2017 11:23:27 GMT
+      - Thu, 23 Feb 2017 11:07:23 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -130,9 +130,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '52'
+      - '39'
       X-Ratelimit-Reset:
-      - '1487852552'
+      - '1487850502'
       Cache-Control:
       - public, max-age=60, s-maxage=60
       Vary:
@@ -158,9 +158,9 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - 2c18a09f3ac5e4dd1e004af7c5a94769
+      - 9e60649f02cd840ee8baa9960690f79f
       X-Github-Request-Id:
-      - EA32:76F0:CF3F62B:101E4F63:58AEC62F
+      - E93C:2F904:B6C1041:ED5B29A:58AEC26B
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -2528,7 +2528,7 @@ http_interactions:
         c3VlcyI6MCwid2F0Y2hlcnMiOjAsImRlZmF1bHRfYnJhbmNoIjoic291cmNl
         In1d
     http_version: 
-  recorded_at: Thu, 23 Feb 2017 11:23:28 GMT
+  recorded_at: Thu, 23 Feb 2017 11:07:24 GMT
 - request:
     method: get
     uri: https://api.github.com/users/heidar
@@ -2552,7 +2552,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Feb 2017 11:23:29 GMT
+      - Thu, 23 Feb 2017 11:07:26 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2562,9 +2562,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '51'
+      - '38'
       X-Ratelimit-Reset:
-      - '1487852552'
+      - '1487850502'
       Cache-Control:
       - public, max-age=60, s-maxage=60
       Vary:
@@ -2592,9 +2592,9 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - 4537b68c46a1b65b106078b0a2578ee2
+      - bae57931a6fe678a3dffe9be8e7819c8
       X-Github-Request-Id:
-      - EA33:76EE:C9ECF2A:FBF80FD:58AEC630
+      - E93D:2F902:B5CB6B5:EBF288F:58AEC26C
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -2625,7 +2625,7 @@ http_interactions:
         MjAxMi0wMi0yNFQyMzoyMDo0MloiLCJ1cGRhdGVkX2F0IjoiMjAxNy0wMi0y
         MVQxMzo1MToyOVoifQ==
     http_version: 
-  recorded_at: Thu, 23 Feb 2017 11:23:30 GMT
+  recorded_at: Thu, 23 Feb 2017 11:07:28 GMT
 - request:
     method: get
     uri: https://api.github.com/users/heidar/repos
@@ -2649,7 +2649,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 23 Feb 2017 11:23:31 GMT
+      - Thu, 23 Feb 2017 11:07:30 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -2659,9 +2659,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '50'
+      - '37'
       X-Ratelimit-Reset:
-      - '1487852552'
+      - '1487850502'
       Cache-Control:
       - public, max-age=60, s-maxage=60
       Vary:
@@ -2687,9 +2687,9 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - 7b641bda7ec2ca7cd9df72d2578baf75
+      - a241e1a8264a6ace03db946c85b92db3
       X-Github-Request-Id:
-      - EA34:76E5:832F5F6:A4540D3:58AEC632
+      - E93E:2F901:32F2E58:41E0771:58AEC271
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -5057,5 +5057,5 @@ http_interactions:
         c3VlcyI6MCwid2F0Y2hlcnMiOjAsImRlZmF1bHRfYnJhbmNoIjoic291cmNl
         In1d
     http_version: 
-  recorded_at: Thu, 23 Feb 2017 11:23:31 GMT
+  recorded_at: Thu, 23 Feb 2017 11:07:30 GMT
 recorded_with: VCR 3.0.3

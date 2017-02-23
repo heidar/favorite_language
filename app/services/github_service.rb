@@ -1,4 +1,16 @@
 class GithubService
+  class NotFound < StandardError
+    def initialize(msg = 'User not found')
+      super
+    end
+  end
+
+  class NoRepositories < StandardError
+    def initialize(msg = 'User has no repositories listed')
+      super
+    end
+  end
+
   def initialize(username:)
     @client     = Octokit::Client.new
     @username   = username
@@ -15,6 +27,10 @@ class GithubService
   private
 
   def repositories
-    @client.user(@username).rels[:repos].get.data
+    @repositories ||= @client.user(@username).rels[:repos].get.data
+    raise GithubService::NoRepositories unless @repositories.present?
+    @repositories
+  rescue Octokit::NotFound
+    raise GithubService::NotFound
   end
 end

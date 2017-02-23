@@ -1,0 +1,285 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/users/johnc
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 4.6.2
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 23 Feb 2017 11:17:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '17'
+      X-Ratelimit-Reset:
+      - '1487850502'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"d76ed9f0046c242ad25208eba856f66a"
+      Last-Modified:
+      - Mon, 28 Nov 2016 20:55:35 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 46808ddc41c302090177e58148908b23
+      X-Github-Request-Id:
+      - E979:2F903:6C37AF2:8C4B155:58AEC4B7
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"johnc","id":22205,"avatar_url":"https://avatars.githubusercontent.com/u/22205?v=3","gravatar_id":"","url":"https://api.github.com/users/johnc","html_url":"https://github.com/johnc","followers_url":"https://api.github.com/users/johnc/followers","following_url":"https://api.github.com/users/johnc/following{/other_user}","gists_url":"https://api.github.com/users/johnc/gists{/gist_id}","starred_url":"https://api.github.com/users/johnc/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/johnc/subscriptions","organizations_url":"https://api.github.com/users/johnc/orgs","repos_url":"https://api.github.com/users/johnc/repos","events_url":"https://api.github.com/users/johnc/events{/privacy}","received_events_url":"https://api.github.com/users/johnc/received_events","type":"User","site_admin":false,"name":"John
+        Castellucci","company":null,"blog":null,"location":"Marin County, CA","email":"johnc@paynearme.com","hireable":null,"bio":null,"public_repos":0,"public_gists":0,"followers":2,"following":0,"created_at":"2008-08-27T15:11:55Z","updated_at":"2016-11-28T20:55:35Z"}'
+    http_version: 
+  recorded_at: Thu, 23 Feb 2017 11:17:12 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/johnc/repos
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 4.6.2
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 23 Feb 2017 11:17:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '16'
+      X-Ratelimit-Reset:
+      - '1487850502'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - '"aacc6f617e4d9cd3fbca87b8d3748d98"'
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 8a5c38021a5cd7cef7b8f49a296fee40
+      X-Github-Request-Id:
+      - E97A:2F904:B6D5639:ED75D13:58AEC4B9
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 23 Feb 2017 11:17:14 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/johnc
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 4.6.2
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 23 Feb 2017 11:17:15 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '15'
+      X-Ratelimit-Reset:
+      - '1487850502'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"d76ed9f0046c242ad25208eba856f66a"
+      Last-Modified:
+      - Mon, 28 Nov 2016 20:55:35 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 49aa99f015c25437a7443c4d3a58cd17
+      X-Github-Request-Id:
+      - E97B:2F904:B6D56D0:ED75DFD:58AEC4BA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"johnc","id":22205,"avatar_url":"https://avatars.githubusercontent.com/u/22205?v=3","gravatar_id":"","url":"https://api.github.com/users/johnc","html_url":"https://github.com/johnc","followers_url":"https://api.github.com/users/johnc/followers","following_url":"https://api.github.com/users/johnc/following{/other_user}","gists_url":"https://api.github.com/users/johnc/gists{/gist_id}","starred_url":"https://api.github.com/users/johnc/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/johnc/subscriptions","organizations_url":"https://api.github.com/users/johnc/orgs","repos_url":"https://api.github.com/users/johnc/repos","events_url":"https://api.github.com/users/johnc/events{/privacy}","received_events_url":"https://api.github.com/users/johnc/received_events","type":"User","site_admin":false,"name":"John
+        Castellucci","company":null,"blog":null,"location":"Marin County, CA","email":"johnc@paynearme.com","hireable":null,"bio":null,"public_repos":0,"public_gists":0,"followers":2,"following":0,"created_at":"2008-08-27T15:11:55Z","updated_at":"2016-11-28T20:55:35Z"}'
+    http_version: 
+  recorded_at: Thu, 23 Feb 2017 11:17:16 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/johnc/repos
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 4.6.2
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 23 Feb 2017 11:17:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2'
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '14'
+      X-Ratelimit-Reset:
+      - '1487850502'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - '"aacc6f617e4d9cd3fbca87b8d3748d98"'
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 1e9204dbc0447a6f39c3b3c44d87b3f8
+      X-Github-Request-Id:
+      - E97C:2F902:B5E0332:EC0E247:58AEC4BC
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 23 Feb 2017 11:17:17 GMT
+recorded_with: VCR 3.0.3
