@@ -26,6 +26,8 @@ class GithubService
     # language, where the language is the key and the value is the number of
     # times it is used. E.g. { "Ruby" => 3 }
     results = repositories.reduce(Hash.new(0)) do |result, repository|
+      next result unless repository.language
+
       result.update repository.language => result[repository.language] + 1
     end
 

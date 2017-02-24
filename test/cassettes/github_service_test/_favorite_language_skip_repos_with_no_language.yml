@@ -1,0 +1,145 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/users/claracmy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 4.6.2
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 24 Feb 2017 00:16:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '59'
+      X-Ratelimit-Reset:
+      - '1487898972'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"f3b4b0a593d12a7a02e99d5a990c1d5f"
+      Last-Modified:
+      - Thu, 23 Feb 2017 21:46:32 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 13d09b732ebe76f892093130dc088652
+      X-Github-Request-Id:
+      - F6D1:231B4:190728:209976:58AF7B4C
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"claracmy","id":11037115,"avatar_url":"https://avatars.githubusercontent.com/u/11037115?v=3","gravatar_id":"","url":"https://api.github.com/users/claracmy","html_url":"https://github.com/claracmy","followers_url":"https://api.github.com/users/claracmy/followers","following_url":"https://api.github.com/users/claracmy/following{/other_user}","gists_url":"https://api.github.com/users/claracmy/gists{/gist_id}","starred_url":"https://api.github.com/users/claracmy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/claracmy/subscriptions","organizations_url":"https://api.github.com/users/claracmy/orgs","repos_url":"https://api.github.com/users/claracmy/repos","events_url":"https://api.github.com/users/claracmy/events{/privacy}","received_events_url":"https://api.github.com/users/claracmy/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":null,"location":null,"email":null,"hireable":null,"bio":">
+        Frogcase\r\n> Pharmacist\r\n","public_repos":5,"public_gists":0,"followers":0,"following":0,"created_at":"2015-02-16T23:43:32Z","updated_at":"2017-02-23T21:46:32Z"}'
+    http_version: 
+  recorded_at: Fri, 24 Feb 2017 00:16:12 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/claracmy/repos
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 4.6.2
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 24 Feb 2017 00:16:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '58'
+      X-Ratelimit-Reset:
+      - '1487898972'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"cc240afed725912982cf131cdaa4caf8"
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 8a5c38021a5cd7cef7b8f49a296fee40
+      X-Github-Request-Id:
+      - F6D2:231B6:2A02FD:36F20B:58AF7B4D
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"id":74378719,"name":"CanILaunch","full_name":"claracmy/CanILaunch","owner":{"login":"claracmy","id":11037115,"avatar_url":"https://avatars.githubusercontent.com/u/11037115?v=3","gravatar_id":"","url":"https://api.github.com/users/claracmy","html_url":"https://github.com/claracmy","followers_url":"https://api.github.com/users/claracmy/followers","following_url":"https://api.github.com/users/claracmy/following{/other_user}","gists_url":"https://api.github.com/users/claracmy/gists{/gist_id}","starred_url":"https://api.github.com/users/claracmy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/claracmy/subscriptions","organizations_url":"https://api.github.com/users/claracmy/orgs","repos_url":"https://api.github.com/users/claracmy/repos","events_url":"https://api.github.com/users/claracmy/events{/privacy}","received_events_url":"https://api.github.com/users/claracmy/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/claracmy/CanILaunch","description":"Rails
+        App","fork":false,"url":"https://api.github.com/repos/claracmy/CanILaunch","forks_url":"https://api.github.com/repos/claracmy/CanILaunch/forks","keys_url":"https://api.github.com/repos/claracmy/CanILaunch/keys{/key_id}","collaborators_url":"https://api.github.com/repos/claracmy/CanILaunch/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/claracmy/CanILaunch/teams","hooks_url":"https://api.github.com/repos/claracmy/CanILaunch/hooks","issue_events_url":"https://api.github.com/repos/claracmy/CanILaunch/issues/events{/number}","events_url":"https://api.github.com/repos/claracmy/CanILaunch/events","assignees_url":"https://api.github.com/repos/claracmy/CanILaunch/assignees{/user}","branches_url":"https://api.github.com/repos/claracmy/CanILaunch/branches{/branch}","tags_url":"https://api.github.com/repos/claracmy/CanILaunch/tags","blobs_url":"https://api.github.com/repos/claracmy/CanILaunch/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/claracmy/CanILaunch/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/claracmy/CanILaunch/git/refs{/sha}","trees_url":"https://api.github.com/repos/claracmy/CanILaunch/git/trees{/sha}","statuses_url":"https://api.github.com/repos/claracmy/CanILaunch/statuses/{sha}","languages_url":"https://api.github.com/repos/claracmy/CanILaunch/languages","stargazers_url":"https://api.github.com/repos/claracmy/CanILaunch/stargazers","contributors_url":"https://api.github.com/repos/claracmy/CanILaunch/contributors","subscribers_url":"https://api.github.com/repos/claracmy/CanILaunch/subscribers","subscription_url":"https://api.github.com/repos/claracmy/CanILaunch/subscription","commits_url":"https://api.github.com/repos/claracmy/CanILaunch/commits{/sha}","git_commits_url":"https://api.github.com/repos/claracmy/CanILaunch/git/commits{/sha}","comments_url":"https://api.github.com/repos/claracmy/CanILaunch/comments{/number}","issue_comment_url":"https://api.github.com/repos/claracmy/CanILaunch/issues/comments{/number}","contents_url":"https://api.github.com/repos/claracmy/CanILaunch/contents/{+path}","compare_url":"https://api.github.com/repos/claracmy/CanILaunch/compare/{base}...{head}","merges_url":"https://api.github.com/repos/claracmy/CanILaunch/merges","archive_url":"https://api.github.com/repos/claracmy/CanILaunch/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/claracmy/CanILaunch/downloads","issues_url":"https://api.github.com/repos/claracmy/CanILaunch/issues{/number}","pulls_url":"https://api.github.com/repos/claracmy/CanILaunch/pulls{/number}","milestones_url":"https://api.github.com/repos/claracmy/CanILaunch/milestones{/number}","notifications_url":"https://api.github.com/repos/claracmy/CanILaunch/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/claracmy/CanILaunch/labels{/name}","releases_url":"https://api.github.com/repos/claracmy/CanILaunch/releases{/id}","deployments_url":"https://api.github.com/repos/claracmy/CanILaunch/deployments","created_at":"2016-11-21T15:41:59Z","updated_at":"2016-11-21T15:44:37Z","pushed_at":"2016-11-21T15:44:36Z","git_url":"git://github.com/claracmy/CanILaunch.git","ssh_url":"git@github.com:claracmy/CanILaunch.git","clone_url":"https://github.com/claracmy/CanILaunch.git","svn_url":"https://github.com/claracmy/CanILaunch","homepage":null,"size":690,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"open_issues_count":0,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master"},{"id":30918898,"name":"claracmy.github.io","full_name":"claracmy/claracmy.github.io","owner":{"login":"claracmy","id":11037115,"avatar_url":"https://avatars.githubusercontent.com/u/11037115?v=3","gravatar_id":"","url":"https://api.github.com/users/claracmy","html_url":"https://github.com/claracmy","followers_url":"https://api.github.com/users/claracmy/followers","following_url":"https://api.github.com/users/claracmy/following{/other_user}","gists_url":"https://api.github.com/users/claracmy/gists{/gist_id}","starred_url":"https://api.github.com/users/claracmy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/claracmy/subscriptions","organizations_url":"https://api.github.com/users/claracmy/orgs","repos_url":"https://api.github.com/users/claracmy/repos","events_url":"https://api.github.com/users/claracmy/events{/privacy}","received_events_url":"https://api.github.com/users/claracmy/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/claracmy/claracmy.github.io","description":null,"fork":false,"url":"https://api.github.com/repos/claracmy/claracmy.github.io","forks_url":"https://api.github.com/repos/claracmy/claracmy.github.io/forks","keys_url":"https://api.github.com/repos/claracmy/claracmy.github.io/keys{/key_id}","collaborators_url":"https://api.github.com/repos/claracmy/claracmy.github.io/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/claracmy/claracmy.github.io/teams","hooks_url":"https://api.github.com/repos/claracmy/claracmy.github.io/hooks","issue_events_url":"https://api.github.com/repos/claracmy/claracmy.github.io/issues/events{/number}","events_url":"https://api.github.com/repos/claracmy/claracmy.github.io/events","assignees_url":"https://api.github.com/repos/claracmy/claracmy.github.io/assignees{/user}","branches_url":"https://api.github.com/repos/claracmy/claracmy.github.io/branches{/branch}","tags_url":"https://api.github.com/repos/claracmy/claracmy.github.io/tags","blobs_url":"https://api.github.com/repos/claracmy/claracmy.github.io/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/claracmy/claracmy.github.io/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/claracmy/claracmy.github.io/git/refs{/sha}","trees_url":"https://api.github.com/repos/claracmy/claracmy.github.io/git/trees{/sha}","statuses_url":"https://api.github.com/repos/claracmy/claracmy.github.io/statuses/{sha}","languages_url":"https://api.github.com/repos/claracmy/claracmy.github.io/languages","stargazers_url":"https://api.github.com/repos/claracmy/claracmy.github.io/stargazers","contributors_url":"https://api.github.com/repos/claracmy/claracmy.github.io/contributors","subscribers_url":"https://api.github.com/repos/claracmy/claracmy.github.io/subscribers","subscription_url":"https://api.github.com/repos/claracmy/claracmy.github.io/subscription","commits_url":"https://api.github.com/repos/claracmy/claracmy.github.io/commits{/sha}","git_commits_url":"https://api.github.com/repos/claracmy/claracmy.github.io/git/commits{/sha}","comments_url":"https://api.github.com/repos/claracmy/claracmy.github.io/comments{/number}","issue_comment_url":"https://api.github.com/repos/claracmy/claracmy.github.io/issues/comments{/number}","contents_url":"https://api.github.com/repos/claracmy/claracmy.github.io/contents/{+path}","compare_url":"https://api.github.com/repos/claracmy/claracmy.github.io/compare/{base}...{head}","merges_url":"https://api.github.com/repos/claracmy/claracmy.github.io/merges","archive_url":"https://api.github.com/repos/claracmy/claracmy.github.io/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/claracmy/claracmy.github.io/downloads","issues_url":"https://api.github.com/repos/claracmy/claracmy.github.io/issues{/number}","pulls_url":"https://api.github.com/repos/claracmy/claracmy.github.io/pulls{/number}","milestones_url":"https://api.github.com/repos/claracmy/claracmy.github.io/milestones{/number}","notifications_url":"https://api.github.com/repos/claracmy/claracmy.github.io/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/claracmy/claracmy.github.io/labels{/name}","releases_url":"https://api.github.com/repos/claracmy/claracmy.github.io/releases{/id}","deployments_url":"https://api.github.com/repos/claracmy/claracmy.github.io/deployments","created_at":"2015-02-17T13:50:37Z","updated_at":"2015-02-17T13:50:55Z","pushed_at":"2015-07-12T16:50:58Z","git_url":"git://github.com/claracmy/claracmy.github.io.git","ssh_url":"git@github.com:claracmy/claracmy.github.io.git","clone_url":"https://github.com/claracmy/claracmy.github.io.git","svn_url":"https://github.com/claracmy/claracmy.github.io","homepage":null,"size":2420,"stargazers_count":0,"watchers_count":0,"language":"HTML","has_issues":true,"has_downloads":true,"has_wiki":true,"has_pages":true,"forks_count":0,"mirror_url":null,"open_issues_count":0,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master"},{"id":38932037,"name":"CodeAcademy","full_name":"claracmy/CodeAcademy","owner":{"login":"claracmy","id":11037115,"avatar_url":"https://avatars.githubusercontent.com/u/11037115?v=3","gravatar_id":"","url":"https://api.github.com/users/claracmy","html_url":"https://github.com/claracmy","followers_url":"https://api.github.com/users/claracmy/followers","following_url":"https://api.github.com/users/claracmy/following{/other_user}","gists_url":"https://api.github.com/users/claracmy/gists{/gist_id}","starred_url":"https://api.github.com/users/claracmy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/claracmy/subscriptions","organizations_url":"https://api.github.com/users/claracmy/orgs","repos_url":"https://api.github.com/users/claracmy/repos","events_url":"https://api.github.com/users/claracmy/events{/privacy}","received_events_url":"https://api.github.com/users/claracmy/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/claracmy/CodeAcademy","description":null,"fork":false,"url":"https://api.github.com/repos/claracmy/CodeAcademy","forks_url":"https://api.github.com/repos/claracmy/CodeAcademy/forks","keys_url":"https://api.github.com/repos/claracmy/CodeAcademy/keys{/key_id}","collaborators_url":"https://api.github.com/repos/claracmy/CodeAcademy/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/claracmy/CodeAcademy/teams","hooks_url":"https://api.github.com/repos/claracmy/CodeAcademy/hooks","issue_events_url":"https://api.github.com/repos/claracmy/CodeAcademy/issues/events{/number}","events_url":"https://api.github.com/repos/claracmy/CodeAcademy/events","assignees_url":"https://api.github.com/repos/claracmy/CodeAcademy/assignees{/user}","branches_url":"https://api.github.com/repos/claracmy/CodeAcademy/branches{/branch}","tags_url":"https://api.github.com/repos/claracmy/CodeAcademy/tags","blobs_url":"https://api.github.com/repos/claracmy/CodeAcademy/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/claracmy/CodeAcademy/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/claracmy/CodeAcademy/git/refs{/sha}","trees_url":"https://api.github.com/repos/claracmy/CodeAcademy/git/trees{/sha}","statuses_url":"https://api.github.com/repos/claracmy/CodeAcademy/statuses/{sha}","languages_url":"https://api.github.com/repos/claracmy/CodeAcademy/languages","stargazers_url":"https://api.github.com/repos/claracmy/CodeAcademy/stargazers","contributors_url":"https://api.github.com/repos/claracmy/CodeAcademy/contributors","subscribers_url":"https://api.github.com/repos/claracmy/CodeAcademy/subscribers","subscription_url":"https://api.github.com/repos/claracmy/CodeAcademy/subscription","commits_url":"https://api.github.com/repos/claracmy/CodeAcademy/commits{/sha}","git_commits_url":"https://api.github.com/repos/claracmy/CodeAcademy/git/commits{/sha}","comments_url":"https://api.github.com/repos/claracmy/CodeAcademy/comments{/number}","issue_comment_url":"https://api.github.com/repos/claracmy/CodeAcademy/issues/comments{/number}","contents_url":"https://api.github.com/repos/claracmy/CodeAcademy/contents/{+path}","compare_url":"https://api.github.com/repos/claracmy/CodeAcademy/compare/{base}...{head}","merges_url":"https://api.github.com/repos/claracmy/CodeAcademy/merges","archive_url":"https://api.github.com/repos/claracmy/CodeAcademy/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/claracmy/CodeAcademy/downloads","issues_url":"https://api.github.com/repos/claracmy/CodeAcademy/issues{/number}","pulls_url":"https://api.github.com/repos/claracmy/CodeAcademy/pulls{/number}","milestones_url":"https://api.github.com/repos/claracmy/CodeAcademy/milestones{/number}","notifications_url":"https://api.github.com/repos/claracmy/CodeAcademy/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/claracmy/CodeAcademy/labels{/name}","releases_url":"https://api.github.com/repos/claracmy/CodeAcademy/releases{/id}","deployments_url":"https://api.github.com/repos/claracmy/CodeAcademy/deployments","created_at":"2015-07-11T16:15:10Z","updated_at":"2015-07-11T16:15:10Z","pushed_at":"2015-07-11T16:16:18Z","git_url":"git://github.com/claracmy/CodeAcademy.git","ssh_url":"git@github.com:claracmy/CodeAcademy.git","clone_url":"https://github.com/claracmy/CodeAcademy.git","svn_url":"https://github.com/claracmy/CodeAcademy","homepage":null,"size":100,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"open_issues_count":0,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master"},{"id":38931906,"name":"iceland","full_name":"claracmy/iceland","owner":{"login":"claracmy","id":11037115,"avatar_url":"https://avatars.githubusercontent.com/u/11037115?v=3","gravatar_id":"","url":"https://api.github.com/users/claracmy","html_url":"https://github.com/claracmy","followers_url":"https://api.github.com/users/claracmy/followers","following_url":"https://api.github.com/users/claracmy/following{/other_user}","gists_url":"https://api.github.com/users/claracmy/gists{/gist_id}","starred_url":"https://api.github.com/users/claracmy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/claracmy/subscriptions","organizations_url":"https://api.github.com/users/claracmy/orgs","repos_url":"https://api.github.com/users/claracmy/repos","events_url":"https://api.github.com/users/claracmy/events{/privacy}","received_events_url":"https://api.github.com/users/claracmy/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/claracmy/iceland","description":"portfolio","fork":false,"url":"https://api.github.com/repos/claracmy/iceland","forks_url":"https://api.github.com/repos/claracmy/iceland/forks","keys_url":"https://api.github.com/repos/claracmy/iceland/keys{/key_id}","collaborators_url":"https://api.github.com/repos/claracmy/iceland/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/claracmy/iceland/teams","hooks_url":"https://api.github.com/repos/claracmy/iceland/hooks","issue_events_url":"https://api.github.com/repos/claracmy/iceland/issues/events{/number}","events_url":"https://api.github.com/repos/claracmy/iceland/events","assignees_url":"https://api.github.com/repos/claracmy/iceland/assignees{/user}","branches_url":"https://api.github.com/repos/claracmy/iceland/branches{/branch}","tags_url":"https://api.github.com/repos/claracmy/iceland/tags","blobs_url":"https://api.github.com/repos/claracmy/iceland/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/claracmy/iceland/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/claracmy/iceland/git/refs{/sha}","trees_url":"https://api.github.com/repos/claracmy/iceland/git/trees{/sha}","statuses_url":"https://api.github.com/repos/claracmy/iceland/statuses/{sha}","languages_url":"https://api.github.com/repos/claracmy/iceland/languages","stargazers_url":"https://api.github.com/repos/claracmy/iceland/stargazers","contributors_url":"https://api.github.com/repos/claracmy/iceland/contributors","subscribers_url":"https://api.github.com/repos/claracmy/iceland/subscribers","subscription_url":"https://api.github.com/repos/claracmy/iceland/subscription","commits_url":"https://api.github.com/repos/claracmy/iceland/commits{/sha}","git_commits_url":"https://api.github.com/repos/claracmy/iceland/git/commits{/sha}","comments_url":"https://api.github.com/repos/claracmy/iceland/comments{/number}","issue_comment_url":"https://api.github.com/repos/claracmy/iceland/issues/comments{/number}","contents_url":"https://api.github.com/repos/claracmy/iceland/contents/{+path}","compare_url":"https://api.github.com/repos/claracmy/iceland/compare/{base}...{head}","merges_url":"https://api.github.com/repos/claracmy/iceland/merges","archive_url":"https://api.github.com/repos/claracmy/iceland/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/claracmy/iceland/downloads","issues_url":"https://api.github.com/repos/claracmy/iceland/issues{/number}","pulls_url":"https://api.github.com/repos/claracmy/iceland/pulls{/number}","milestones_url":"https://api.github.com/repos/claracmy/iceland/milestones{/number}","notifications_url":"https://api.github.com/repos/claracmy/iceland/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/claracmy/iceland/labels{/name}","releases_url":"https://api.github.com/repos/claracmy/iceland/releases{/id}","deployments_url":"https://api.github.com/repos/claracmy/iceland/deployments","created_at":"2015-07-11T16:10:46Z","updated_at":"2015-07-11T16:10:46Z","pushed_at":"2015-07-11T16:10:46Z","git_url":"git://github.com/claracmy/iceland.git","ssh_url":"git@github.com:claracmy/iceland.git","clone_url":"https://github.com/claracmy/iceland.git","svn_url":"https://github.com/claracmy/iceland","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"open_issues_count":0,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master"},{"id":30894535,"name":"letsplay","full_name":"claracmy/letsplay","owner":{"login":"claracmy","id":11037115,"avatar_url":"https://avatars.githubusercontent.com/u/11037115?v=3","gravatar_id":"","url":"https://api.github.com/users/claracmy","html_url":"https://github.com/claracmy","followers_url":"https://api.github.com/users/claracmy/followers","following_url":"https://api.github.com/users/claracmy/following{/other_user}","gists_url":"https://api.github.com/users/claracmy/gists{/gist_id}","starred_url":"https://api.github.com/users/claracmy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/claracmy/subscriptions","organizations_url":"https://api.github.com/users/claracmy/orgs","repos_url":"https://api.github.com/users/claracmy/repos","events_url":"https://api.github.com/users/claracmy/events{/privacy}","received_events_url":"https://api.github.com/users/claracmy/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/claracmy/letsplay","description":null,"fork":false,"url":"https://api.github.com/repos/claracmy/letsplay","forks_url":"https://api.github.com/repos/claracmy/letsplay/forks","keys_url":"https://api.github.com/repos/claracmy/letsplay/keys{/key_id}","collaborators_url":"https://api.github.com/repos/claracmy/letsplay/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/claracmy/letsplay/teams","hooks_url":"https://api.github.com/repos/claracmy/letsplay/hooks","issue_events_url":"https://api.github.com/repos/claracmy/letsplay/issues/events{/number}","events_url":"https://api.github.com/repos/claracmy/letsplay/events","assignees_url":"https://api.github.com/repos/claracmy/letsplay/assignees{/user}","branches_url":"https://api.github.com/repos/claracmy/letsplay/branches{/branch}","tags_url":"https://api.github.com/repos/claracmy/letsplay/tags","blobs_url":"https://api.github.com/repos/claracmy/letsplay/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/claracmy/letsplay/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/claracmy/letsplay/git/refs{/sha}","trees_url":"https://api.github.com/repos/claracmy/letsplay/git/trees{/sha}","statuses_url":"https://api.github.com/repos/claracmy/letsplay/statuses/{sha}","languages_url":"https://api.github.com/repos/claracmy/letsplay/languages","stargazers_url":"https://api.github.com/repos/claracmy/letsplay/stargazers","contributors_url":"https://api.github.com/repos/claracmy/letsplay/contributors","subscribers_url":"https://api.github.com/repos/claracmy/letsplay/subscribers","subscription_url":"https://api.github.com/repos/claracmy/letsplay/subscription","commits_url":"https://api.github.com/repos/claracmy/letsplay/commits{/sha}","git_commits_url":"https://api.github.com/repos/claracmy/letsplay/git/commits{/sha}","comments_url":"https://api.github.com/repos/claracmy/letsplay/comments{/number}","issue_comment_url":"https://api.github.com/repos/claracmy/letsplay/issues/comments{/number}","contents_url":"https://api.github.com/repos/claracmy/letsplay/contents/{+path}","compare_url":"https://api.github.com/repos/claracmy/letsplay/compare/{base}...{head}","merges_url":"https://api.github.com/repos/claracmy/letsplay/merges","archive_url":"https://api.github.com/repos/claracmy/letsplay/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/claracmy/letsplay/downloads","issues_url":"https://api.github.com/repos/claracmy/letsplay/issues{/number}","pulls_url":"https://api.github.com/repos/claracmy/letsplay/pulls{/number}","milestones_url":"https://api.github.com/repos/claracmy/letsplay/milestones{/number}","notifications_url":"https://api.github.com/repos/claracmy/letsplay/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/claracmy/letsplay/labels{/name}","releases_url":"https://api.github.com/repos/claracmy/letsplay/releases{/id}","deployments_url":"https://api.github.com/repos/claracmy/letsplay/deployments","created_at":"2015-02-16T23:50:17Z","updated_at":"2015-02-16T23:50:17Z","pushed_at":"2015-02-16T23:50:17Z","git_url":"git://github.com/claracmy/letsplay.git","ssh_url":"git@github.com:claracmy/letsplay.git","clone_url":"https://github.com/claracmy/letsplay.git","svn_url":"https://github.com/claracmy/letsplay","homepage":null,"size":0,"stargazers_count":0,"watchers_count":0,"language":null,"has_issues":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"open_issues_count":0,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master"}]'
+    http_version: 
+  recorded_at: Fri, 24 Feb 2017 00:16:13 GMT
+recorded_with: VCR 3.0.3

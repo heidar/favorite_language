@@ -19,4 +19,9 @@ class GithubServiceTest < ActiveSupport::TestCase
       service.favorite_language
     end
   end
+
+  test '#favorite_language skip repos with no language' do
+    service = GithubService.new username: 'claracmy'
+    assert_equal 'Ruby', service.favorite_language
+  end
 end
