@@ -15,6 +15,13 @@ class GithubService
     end
   end
 
+  # Handle users with only empty repos
+  class OnlyEmptyRepositories < StandardError
+    def initialize(msg = 'User has no repositories with code')
+      super
+    end
+  end
+
   def initialize(username:)
     @client     = Octokit::Client.new
     @username   = username
@@ -30,6 +37,8 @@ class GithubService
 
       result.update repository.language => result[repository.language] + 1
     end
+
+    raise GithubService::OnlyEmptyRepositories if results.none?
 
     results.max_by { |_, value| value }.first
   end

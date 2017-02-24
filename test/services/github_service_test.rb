@@ -24,4 +24,11 @@ class GithubServiceTest < ActiveSupport::TestCase
     service = GithubService.new username: 'claracmy'
     assert_equal 'Ruby', service.favorite_language
   end
+
+  test '#favorite_language user with only empty repos' do
+    service = GithubService.new username: 'emptytestuser'
+    assert_raise GithubService::OnlyEmptyRepositories do
+      service.favorite_language
+    end
+  end
 end
