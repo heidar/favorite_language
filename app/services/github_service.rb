@@ -38,7 +38,7 @@ class GithubService
       result.update repository.language => result[repository.language] + 1
     end
 
-    raise GithubService::OnlyEmptyRepositories if results.none?
+    raise GithubService::OnlyEmptyRepositories if results.empty?
 
     results.max_by { |_, value| value }.first
   end
